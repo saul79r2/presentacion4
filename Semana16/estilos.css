@@ -1,0 +1,202 @@
+header{
+    background: -webkit-linear-gradient(to left,#4e4b4b,rgba(122, 154, 165, 0.5),#141f27),url(..LogoSaul.png);
+    background: linear-gradient(to Left,#4e4b4b,hsla(196,93%,70%,0.507),#141f27),url(..LogoSaul.png);
+    background-color: black;
+    font:bold 18px Square 121;
+    color: rgb(228, 228, 85);
+}
+/*Barra*/
+.navegacion{
+    width: 1000px;
+    background-color: rgb(26, 29, 68);
+    text-align: center;
+    margin: 30px auto;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+.MENU>li{
+    position: relative;
+    display: inline-block;
+}
+
+.MENU>li>a{
+    display: inline-block;
+    padding: 20px 50px;
+    color: rgb(0, 81, 128);
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+.MENU>li>a:hover{
+    background-color: blue;
+    color: rgb(253, 247, 247);
+}
+/* SUB MENU */
+.SUB-MENU{
+    /*display: inline-block;*/
+    position: absolute;
+    background-color:aqua;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.SUB-MENU li a{
+    display: block;
+    flex-direction: column;
+    padding: 7px;
+    color: green;
+    text-decoration: none;
+    float: both;
+}
+.MENU li:hover .SUB-MENU{
+    flex-direction: column;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    float: top;
+}
+
+.SUB-MENU>li>a:hover{
+color:red;
+}
+
+/* slider*/
+*{
+    box-sizing: border-box;
+    }
+    
+    body{
+    /*display: flex;*/
+    min-height: 100vh;
+    /*background-color: rgb(221, 105, 115);*/
+    background: -webkit-linear-gradient(to left,#4e4b4b,rgba(122, 154, 165, 0.5),#141f27),url(..LogoSaul.png);
+    background: linear-gradient(to Left,#4e4b4b,hsla(196,93%,70%,0.507),#141f27),url(..LogoSaul.png);
+    background-color: black;
+    }
+    
+    .contenedor_slider{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    position:relative;
+    
+    }
+    
+    .slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+     }
+    
+     .slider{
+     display: flex;
+     width: 400%;
+     height: 400px;
+     margin-left: -100%;
+    
+    
+     }
+    
+     .slider__section{
+    width: 100%;
+    
+     }
+    
+     .slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgb(236, 240, 17);
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    border-radius:50%;
+    cursor: pointer;
+    
+     }
+    
+     .slider_btnDerecha{
+       right: 10px;
+     }
+    
+     .slider_btnIzquierda{
+    margin-left:10px;
+    
+     }
+    
+     .slider__btn:hover{
+     background: white;
+    
+     }
+
+     /* ESTILOS DE BOTONES */
+#boton-mas{
+    display: none;
+}
+.ICONOS{
+    position: fixed;
+    font-size:x-large;
+    color:#dbe6f6;
+    bottom: 30px;
+    right: 30px;
+}
+
+.redes a, .icon-plus{
+    display: block;
+    text-decoration: none;
+    background-color:darkblue;
+    color: white;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 500ms ease;
+}
+.redes a:hover{
+    background-color: white;
+    color: red;
+} 
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#boton-mas:checked~ .redes a{
+    margin-bottom: 15px;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* pie de pagina*/
+footer{
+    height: 80px;
+    background-color: #2592a0;
+}
+
+.iconos{
+    color:#2e1292;
+    font-size:x-large;
+    width:50px;
+    height:50px;
+}
+
+p{
+    color:#d6e413;
+    font: bold 10px  arial sans-serif;
+    text-align:center;
+}
+
+/*
+.redes a{
+    font:10px;
+}
+   */
+    

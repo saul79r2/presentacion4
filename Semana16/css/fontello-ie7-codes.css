@@ -1,0 +1,7 @@
+
+.mobileicon-f16d { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.instagramicon-f16d { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16d;&nbsp;'); }
+.facebookicon-f16d { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf300;&nbsp;'); }
+.twitter-birdicon-f16d { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf303;&nbsp;'); }
+.instagram-1icon-f16d { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf31e;&nbsp;'); }
+.cameraicon-f16d { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf4f7;&nbsp;'); }

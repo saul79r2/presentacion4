@@ -1,0 +1,70 @@
+body{
+    background-image:url(P5.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+
+.formulario{
+    background:rgba(0,0,0,0.6);
+    /*background-color: black;*/
+    padding:20px;
+    border-radius:10px;
+    box-shadow: 0 0 42px;
+    color: aliceblue;
+}
+
+.form-color{
+    background:rgba(0,-0,-0,-0.568);
+    border-style: none;
+    font: bold 12px verdana sans-serif;
+    color:aliceblue;
+}
+
+.ingresar{
+    background-color: black;
+    padding: 10px;
+    font-size:12px;
+    font-weight: 700!important;
+    color: aliceblue;
+    box-shadow:0 0 30px;
+    transition:0.5s ease-in;
+}
+
+.ingresar:hover{
+    color: aliceblue;
+}
+
+.olvide{
+    color: aliceblue;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    font-size: 15px;
+}
+
+.olvide:hover{
+    color: aliceblue;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.olvide1{
+    color: aliceblue;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    font-size: 15px;
+    font-weight: 700!important;
+    border:2px solid white;
+    padding:10px;
+    border-radius:10px;
+    background:rgba(0,-0,-0,-.5);
+}
+
+.olvide1:hover{
+    color: aliceblue;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+body{
+    /*display: flex;*/
+    min-height: 100vh;
+    /*background-color: rgb(221, 105, 115);*/
+    background: -webkit-linear-gradient(to left,#4e4b4b,rgba(122, 154, 165, 0.5),#141f27),url(..LogoSaul.png);
+    background: linear-gradient(to Left,#4e4b4b,hsla(196,93%,70%,0.507),#141f27),url(..LogoSaul.png);
+    background-color: black;
+    }

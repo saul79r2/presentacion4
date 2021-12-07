@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: monospace;
+    letter-spacing: 1.5px;
+} 
+
+/* ----------------- Estilos del header---------*/
+
+/* Estilos del boton*/
+.header{
+    height: 60px;
+}
+.header .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+.logo, .icon-menu{
+    margin: 5px;
+}
+.icon-menu{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: brown;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    margin-left: auto;
+    cursor: pointer;
+    color: white;
+}
+
+/* Estilos del Menu */
+
+.nav{
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    width: 100%;
+    transition: all 0.4s;
+}
+.mostrar{
+    left: 0%;
+}
+.menu{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+.menu__link{
+    display: block;
+    padding: 20px;
+    background: brown;
+    color: white;
+    text-decoration: none;
+}
+.menu__link:hover{
+    background: white;
+    color: brown;
+}
+/* Estilos del banner*/
+
+.banner{
+    margin-top: -60px;
+    position: relative;
+    z-index: -1000;
+}
+.contenido{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(200%);
+    color: white;
+    text-align: center;
+}
+.banner__titulo, .banner__txt{
+    background-color: black;
+    width: 500px;
+    margin: auto;
+}
+.banner__txt{
+    font-size: 12px;
+}
+
+/* Estilos info*/
+.info__columna{
+    background: brown;
+    color: white;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+@media(min-width:360px){
+    .logo{
+        font-size: 40px;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    /* resposive del articulo */
+    .info{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -30px;
+    }
+    .info__columna{
+        width: 32%;
+        border-radius: 10px;
+    }
+    .info__titulo{
+        font-size: 25px;
+        text-align: center;
+    }
+    .info__txt{
+        background: rgba(0, 0, 0, 0.3);
+    }
+    .info__img{
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+    }
+}
+
+@media(min-width:1024px){
+    .logo{
+        font-size: 25px;
+    }
+    .banner__img{
+        width: 100%;
+    }
+    .nav{
+        position: static;
+        width: auto;
+    }
+    .icon-menu{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        margin-right: 15px;
+    }
+    .menu__link{
+        font-size: 25px;
+    }
+    /* Responsive del titulo */
+    .banner__titulo{
+        font-size: 30px;
+        width: 700px;
+    }
+    .banner__txt{
+        width: 700px;
+        font-size: 18px;
+    }
+    /* Resposive del articulo */
+    .info{
+        width: 70%;
+        margin: auto;
+        margin-top: -60px;
+    }
+    .info__titulo{
+        font-size: 30px;
+    }
+}
+
+/* Estilos del curso */
+.cursos{
+    width: 360px;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+}
+.cursos__img{
+    position: relative;
+    z-index: -1000;
+}
+.section__titulo{
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+    margin-top: -70px;
+    position: relative;
+    z-index: 1000;
+}
+.cursos__columna{
+    margin-top: -200px;
+    width: 360px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.cursos__titulo, .cursos__txt, .cursos__btn{
+    margin-top: 40px;
+    color: white;
+}
+.cursos__titulo{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: -25px;
+}
+.cursos__txt{
+    width: 300px;
+    text-align: center;
+    margin-left: 30px;
+}
+.cursos__btn{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.cursos__btn:hover{
+    background: white;
+    color: black;
+}
+
